@@ -1,0 +1,398 @@
+body{
+	width:7.5rem;
+	height: 100%;
+	background: #fff;
+	margin:0 auto;
+	header{
+		width:100%;
+		height: 3.4rem;
+		.invite{
+			width:100%;
+			overflow: hidden;
+			padding-top:0.3rem;
+			p{
+				text-align: center;
+				font-size: 0.3rem;
+				line-height: 0.5rem;
+			}
+		}
+		.via{
+			width:2.5rem;
+			height: 0.8rem;
+			margin-top:0.2rem;
+			margin-left:0.3rem;
+			position: relative;
+			i{
+				width:0.8rem	;
+				height: 0.8rem	;
+				border-radius: 0.8rem	;
+				position: absolute;
+				left:0;
+				top:0;
+				background: url(../images/via.jpg) no-repeat;
+				background-size: cover;
+			}
+			b{
+				width:0.6rem;
+				height: 0.26rem;
+				color:#fff;text-align: center;
+				padding-top:0.02rem;
+				box-sizing: border-box;
+				font-size: 0.18rem;
+				letter-spacing: 0.02rem;
+				position: absolute;
+				left:0.6rem;
+				bottom:0;
+				background: url(../images/jinpai.png) no-repeat;
+				background-size: cover;				
+			}
+			span{
+				position: absolute;
+				left:0.98rem;
+				top:0.19rem;
+				font-size: 0.2rem;
+			}
+		}
+		.guize{
+			width:0.5rem;
+			height: 0.5rem;
+			background: url(../images/guize.png) no-repeat;
+			background-size: cover;
+			margin: 0.2rem 0.3rem 0 0;
+		}
+	}
+	.swiper-main{
+		width:100%;
+		height: 3.58rem;
+		position: absolute;
+		left:0;
+		top:2.6rem;
+		.swiper-container{
+			width:100%;
+			height: 100%;
+			padding:0 0.3rem;
+			box-sizing: border-box;
+			 transition: left 0.5s;
+			.swiper-slide{				
+				.type-cards{
+					height: 3.4rem;
+					margin:0 auto;
+					background: url(../images/j-bg.png) no-repeat;
+					background-size: cover;
+					position: relative;
+					overflow: hidden;
+					.main{
+						width:100%;
+						height: 100%;
+						display: none;
+					
+					h4{
+						width:100%;
+						color: #D5BD91 ;
+						font-weight: 700;
+						margin-top:0.21rem;
+						padding-left:0.31rem;
+						box-sizing: border-box;
+						font-size:0.24rem;
+						display: none;
+					}
+					h4.active{
+						color: #BDC0C2 ;
+						margin-top:0.36rem;
+						padding-left:0.3rem;
+						box-sizing: border-box;						
+					}
+					p{
+						width:100%;
+						height: 1.56rem;
+						padding:0.4rem 0.3rem 0;
+						box-sizing: border-box;
+						font-size: 0.44rem;
+						color: #fff;
+						font-weight: 800;
+					}
+					p.active{
+						text-align: center;
+					}
+					.classify{
+						width: 3rem;
+						height: 1.4rem;
+						position: absolute;
+						left:0.3rem;
+						bottom:0.1rem;
+						span{
+							display: block;
+							font-size: 0.22rem;
+							margin-top:0.1rem;
+							color: #fff;
+						}
+
+					}
+					.classify.type1{
+						height: 1rem;
+					}					
+					.classify.type2{
+						span:nth-child(1){
+							color:#D5BD91;
+						}						
+					}
+					.classify.type3{
+						span:nth-child(1){
+							color:#383838;
+						}						
+					}
+					.classify.type4{
+						height: 1.2rem;
+														
+					}	
+					.classify.type5{
+						height: 1rem;
+						left:0.38rem;
+						span{
+							color: #383838;
+						}
+						a{
+							color: #383838;
+						}							
+					}														
+					strong{
+						width:2.33rem;
+						height: 0.58rem;
+						display: block;
+						position: absolute;
+						right:0.32rem;
+						bottom:0.32rem;
+						background: url(../images/j-1314.png) no-repeat;
+						background-size: cover;						
+					}
+				}
+				}
+				.type-cards.active{
+					background: url(../images/y-bg.png) no-repeat;
+					background-size: cover;
+					strong{
+						background: url(../images/y-1314.png) no-repeat;
+						background-size: cover;							
+					}
+				}				
+			}
+			//.swiper-slide:nth-child(1){
+			//	margin-left:-0.5rem;
+			//}
+			//.swiper-slide:nth-child(2){
+			//	margin-left:0.5rem;
+			//}			
+		}
+	}
+	section{
+		width:100%;
+		height: 2.871rem;
+		background: #F4F4F4;
+	}
+	footer{
+		width:100%;
+		overflow: hidden;
+		h4{
+			width: 100%;
+			margin:0.38rem 0 0.5rem 0;
+			font-size: 0.26rem;
+			text-align: center;
+		}
+		ul{
+			width:100%;
+			overflow: hidden;
+			display: flex;
+			padding:0 0.3rem;
+			box-sizing: border-box;					
+			li{
+				flex:4;
+				text-align: center;
+				font-size: 0.22rem;
+				padding-top:0.15rem;
+				position: relative;
+				i{
+					width:0.6rem;
+					height: 0.6rem;
+					display: block;
+					margin:0 auto 0.35rem;				
+				}
+				b{
+					width:0.76rem;
+					height: 0.3rem;
+					background: #CEB37B;
+					border-radius: 0.3rem;
+					position: absolute;
+					left:0.9rem;
+					top:0;
+					color: #fff;
+					text-align: center;
+					padding-top:0.03rem;
+					box-sizing: border-box;
+					font-size: 0.2rem;
+				}																	
+			}									
+		}
+		.opacity{
+			-webkit-filter: opacity(40%) grayscale(1);
+			filter: opacity(40%) grayscale(1);
+			animation:mymove 0.5s;
+			-webkit-animation:mymove 0.5s; /* Safari 和 Chrome */			
+		}
+		.opacity.active{
+			-webkit-filter: opacity(100%) grayscale(0);
+			filter: opacity(100%) grayscale(0);	
+			animation:mymove2 0.5s;
+			-webkit-animation:mymove2 0.5s; /* Safari 和 Chrome */							
+		}
+		ul:nth-child(2){
+			li:nth-child(1){
+				i{
+					background:url(../images/prepaid.png) no-repeat;
+					background-size: cover;
+				}			
+			}
+			li:nth-child(2){
+				i{
+					background:url(../images/youxuan.png) no-repeat;
+					background-size: cover;
+				}				
+			}
+			li:nth-child(3){
+				i{
+					background:url(../images/ziying.png) no-repeat;
+					background-size: cover;
+				}				
+			}
+			li:nth-child(4){
+				i{
+					background:url(../images/lvyou.png) no-repeat;
+					background-size: cover;
+				}				
+			}
+		}
+		ul:nth-child(3){
+			margin-top: 0.6rem;
+			li:nth-child(1){
+				i{
+					background:url(../images/huafeiticheng.png) no-repeat;
+					background-size: cover;									
+				}				
+			}
+			li:nth-child(2){
+				i{
+					background:url(../images/youxuanfanli.png) no-repeat;
+					background-size: cover;
+				}									
+			}
+			li:nth-child(3){							
+				i{
+					background:url(../images/tuiguangticheng.png) no-repeat;
+					background-size: cover;
+				}								
+			}
+			li:nth-child(4){				
+				i{
+					background:url(../images/lvyouticheng.png) no-repeat;
+					background-size: cover;
+				}									
+			}
+		}		
+	}
+}
+@keyframes mymove{
+	from {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+	to {
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);
+	}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+	from {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+	to {
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);
+	}
+}
+
+@-webkit-keyframes mymove /* Safari 和 Chrome */
+{
+	from {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+	to {
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);
+	}
+}
+
+@-o-keyframes mymove /* Opera */
+{
+	from {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+	to {
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);
+	}
+}
+
+@keyframes mymove2{
+	from {
+
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);		
+	}
+	to {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+}
+
+@-moz-keyframes mymove2 /* Firefox */
+{
+	from {
+
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);		
+	}
+	to {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+}
+
+@-webkit-keyframes mymove2 /* Safari 和 Chrome */
+{
+	from {
+
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);		
+	}
+	to {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+}
+
+@-o-keyframes mymove2 /* Opera */
+{
+	from {
+
+		-webkit-filter: opacity(40%) grayscale(1);
+		filter: opacity(40%) grayscale(1);		
+	}
+	to {
+		-webkit-filter: opacity(100%) grayscale(0);
+		filter: opacity(100%) grayscale(0);
+	}
+}
